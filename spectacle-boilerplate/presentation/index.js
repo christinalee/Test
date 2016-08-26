@@ -26,7 +26,7 @@ import {
 import preloader from "spectacle/lib/utils/preloader";
 
 // Import theme
-import createTheme from "spectacle/lib/themes/default";
+import createTheme from "../theme";
 
 // Import custom component
 import Interactive from "../assets/interactive";
@@ -132,6 +132,11 @@ You can write inline images, [Markdown Links](http://commonmark.org), paragraph 
 * Lists too!
 * With ~~strikethrough~~ and _italic_
 * And lets not forget **bold**
+  
+\`\`\`swift
+let x = 1;
+\`\`\`
+
               `}
             </Markdown>
           </Slide>
